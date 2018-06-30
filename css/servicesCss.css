@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: auto;
+    background: black url(../img/background.png)no-repeat center center fixed;
+    background-size: cover;
+}
+.header{
+    position: relative;
+    height: 264px;
+
+}
+#logo{
+    width: 156px;
+    height: 115px;
+    position: absolute;
+    left: 36px;
+    bottom: 61px;
+
+}
+#logo img{
+    width: 156px;
+    height: 115px;
+}
+#divMenu{
+    position: absolute;
+    bottom: 71px;
+    left: 271px;
+    width: 100%;
+    height:12px;
+    display: inline;
+    vertical-align:middle;
+}
+.main{
+    margin-left: 54px;
+}
+#menu{
+    height: 12px;
+    list-style: none;
+}
+#menu li{
+    display: inline-block;
+    margin-left: 34px;
+    font-family: 'EB Garamond', serif;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 1.1px;
+}
+#menu li:nth-child(1){
+    margin-left: 0;
+}
+
+#copy{
+    width: 430px;
+    height: 11px;
+    position: absolute;
+    left: 36px;
+    bottom: 26px;
+    font-family: 'EB Garamond', serif;
+    font-size: 0.7em;
+    letter-spacing: 1.1px;
+    line-height: 2.36;
+    color: #949494;
+}
+
+.plus{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border: white solid 1px;
+    border-radius: 50%;
+    background: white url(../img/+.png)center no-repeat;
+
+}
+.min{
+     display: inline-block;
+     height: 16px;
+     width: 16px;
+     border: white solid 1px;
+     border-radius: 50%;
+     background: white url(../img/-.png)center no-repeat;
+ }
+.label{
+    margin-left: 9px;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 2.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.name{
+    height: 26px;
+    display: inline-block;
+}
+.name:hover{
+    cursor: pointer;
+}
+.text{
+    text-transform:uppercase;
+    display: none;
+    margin-left: 25px;
+    width: 50%;
+    text-align: left;
+    font-family: 'EB Garamond', serif;
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.36;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+}
+.el{
+    display: block;
+    height: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+}
